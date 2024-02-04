@@ -15,7 +15,7 @@ D:/1.UNIVERSITY/Year 2 Term 2/Personal Portfolio/Product/ARShooter/ARShooter
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51660
+51972
 Successfully changed project path to: D:/1.UNIVERSITY/Year 2 Term 2/Personal Portfolio/Product/ARShooter/ARShooter
 D:/1.UNIVERSITY/Year 2 Term 2/Personal Portfolio/Product/ARShooter/ARShooter
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,13 +49,13 @@ D:/1.UNIVERSITY/Year 2 Term 2/Personal Portfolio/Product/ARShooter/ARShooter
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19988] Host "[IP] 192.168.2.104 [Port] 0 [Flags] 2 [Guid] 2592346246 [EditorId] 2592346246 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J0422ED) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [21664] Host "[IP] 192.168.2.104 [Port] 0 [Flags] 2 [Guid] 3138514874 [EditorId] 3138514874 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J0422ED) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19988] Host "[IP] 192.168.2.104 [Port] 0 [Flags] 2 [Guid] 2592346246 [EditorId] 2592346246 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J0422ED) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [21664] Host "[IP] 192.168.2.104 [Port] 0 [Flags] 2 [Guid] 3138514874 [EditorId] 3138514874 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J0422ED) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 15 workers.
-Refreshing native plugins compatible for Editor in 7.09 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
+Refreshing native plugins compatible for Editor in 14.02 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 1.98 ms.
 Initialize engine version: 2022.3.13f1 (5f90a5ebde0f)
 [Subsystems] Discovering subsystems at path D:/Unity/2022.3.13f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/1.UNIVERSITY/Year 2 Term 2/Personal Portfolio/Product/ARShooter/ARShooter/Assets
@@ -66,52 +66,54 @@ Direct3D:
     Vendor:   NVIDIA
     VRAM:     8018 MB
     Driver:   31.0.15.5123
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Initialize mono
 Mono path[0] = 'D:/Unity/2022.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2022.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2022.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2022.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity/2022.3.13f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/Unity/2022.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004322 seconds.
-- Loaded All Assemblies, in  0.302 seconds
+Registered in 0.004137 seconds.
+- Loaded All Assemblies, in  0.311 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.261 seconds
-Domain Reload Profiling: 562ms
-	BeginReloadAssembly (102ms)
+- Finished resetting the current domain, in  0.281 seconds
+Domain Reload Profiling: 591ms
+	BeginReloadAssembly (98ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (30ms)
+	RebuildCommonClasses (29ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (119ms)
-		LoadAssemblies (102ms)
+	initialDomainReloadingComplete (45ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (99ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (117ms)
-			TypeCache.Refresh (115ms)
-				TypeCache.ScanAssembly (104ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (115ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (261ms)
+	FinalizeReload (281ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (215ms)
+		SetupLoadedEditorAssemblies (231ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (81ms)
+			InitializePlatformSupportModulesInManaged (91ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (87ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -119,8 +121,8 @@ Domain Reload Profiling: 562ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.500 seconds
-Refreshing native plugins compatible for Editor in 2.45 ms, found 3 plugins.
+- Loaded All Assemblies, in  0.629 seconds
+Refreshing native plugins compatible for Editor in 8.17 ms, found 11 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -128,76 +130,27 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.475 seconds
-Domain Reload Profiling: 976ms
-	BeginReloadAssembly (131ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (303ms)
-		LoadAssemblies (239ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (143ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (115ms)
-			ScanForSourceGeneratedMonoScriptInfo (11ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (475ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (336ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (45ms)
-			ProcessInitializeOnLoadAttributes (247ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 2.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3083 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 32 unused Assets / (56.8 KB). Loaded Objects now: 3547.
-Memory consumption went from 127.4 MB to 127.4 MB.
-Total: 3.058500 ms (FindLiveObjects: 0.281300 ms CreateObjectMapping: 0.110700 ms MarkObjects: 2.563700 ms  DeleteObjects: 0.101500 ms)
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7aeb7d7a52d04045b8a1c734633fa931>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.420 seconds
-Refreshing native plugins compatible for Editor in 3.60 ms, found 3 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -205,230 +158,318 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.786 seconds
-Domain Reload Profiling: 1206ms
-	BeginReloadAssembly (168ms)
+- Finished resetting the current domain, in  0.597 seconds
+Domain Reload Profiling: 1226ms
+	BeginReloadAssembly (139ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (29ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (27ms)
 	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (187ms)
-		LoadAssemblies (260ms)
+	initialDomainReloadingComplete (33ms)
+	LoadAllAssembliesAndSetupDomain (420ms)
+		LoadAssemblies (292ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (22ms)
-			TypeCache.Refresh (9ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (7ms)
-			ResolveRequiredComponents (5ms)
-	FinalizeReload (787ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (314ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (2ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (54ms)
-			ProcessInitializeOnLoadAttributes (216ms)
-			ProcessInitializeOnLoadMethodAttributes (19ms)
-			AfterProcessingInitializeOnLoad (3ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
-Refreshing native plugins compatible for Editor in 2.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3158 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3634.
-Memory consumption went from 129.3 MB to 129.3 MB.
-Total: 2.980800 ms (FindLiveObjects: 0.253500 ms CreateObjectMapping: 0.216700 ms MarkObjects: 2.464300 ms  DeleteObjects: 0.045500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.369 seconds
-Refreshing native plugins compatible for Editor in 3.81 ms, found 6 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7aeb7d7a52d04045b8a1c734633fa931>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.803 seconds
-Domain Reload Profiling: 1172ms
-	BeginReloadAssembly (145ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (35ms)
-	RebuildCommonClasses (27ms)
-	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (168ms)
-		LoadAssemblies (233ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (17ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (1ms)
-			ScanForSourceGeneratedMonoScriptInfo (5ms)
-			ResolveRequiredComponents (3ms)
-	FinalizeReload (804ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (339ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
-			SetLoadedEditorAssemblies (4ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (51ms)
-			ProcessInitializeOnLoadAttributes (241ms)
-			ProcessInitializeOnLoadMethodAttributes (24ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
-Refreshing native plugins compatible for Editor in 3.63 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.57 ms.
-Unloading 3188 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 26 unused Assets / (32.1 KB). Loaded Objects now: 3666.
-Memory consumption went from 132.0 MB to 132.0 MB.
-Total: 2.930600 ms (FindLiveObjects: 0.392300 ms CreateObjectMapping: 0.138900 ms MarkObjects: 2.345600 ms  DeleteObjects: 0.051900 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.727 seconds
-Refreshing native plugins compatible for Editor in 8.60 ms, found 11 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Native extension for WebGL target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
-  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-   --- End of inner exception stack trace ---
-  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
-  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7aeb7d7a52d04045b8a1c734633fa931>:0 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
-
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.814 seconds
-Domain Reload Profiling: 1540ms
-	BeginReloadAssembly (249ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (53ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (38ms)
-	LoadAllAssembliesAndSetupDomain (369ms)
-		LoadAssemblies (372ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (150ms)
-			TypeCache.Refresh (113ms)
-				TypeCache.ScanAssembly (96ms)
+		AnalyzeDomain (213ms)
+			TypeCache.Refresh (177ms)
+				TypeCache.ScanAssembly (152ms)
 			ScanForSourceGeneratedMonoScriptInfo (27ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (815ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (598ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (361ms)
+		SetupLoadedEditorAssemblies (421ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (19ms)
+			InitializePlatformSupportModulesInManaged (20ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (72ms)
-			ProcessInitializeOnLoadAttributes (241ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (293ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 12.67 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 0.08 ms.
+Unloading 4852 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 74 unused Assets / (75.9 KB). Loaded Objects now: 5285.
+Memory consumption went from 182.0 MB to 182.0 MB.
+Total: 3.914400 ms (FindLiveObjects: 0.361900 ms CreateObjectMapping: 0.157900 ms MarkObjects: 3.229400 ms  DeleteObjects: 0.163800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 8.81 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 0.07 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.0 KB). Loaded Objects now: 5285.
+Memory consumption went from 92.9 MB to 92.9 MB.
+Total: 3.919600 ms (FindLiveObjects: 0.335800 ms CreateObjectMapping: 0.315400 ms MarkObjects: 3.239900 ms  DeleteObjects: 0.027700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 8.91 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 0.09 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 5285.
+Memory consumption went from 92.6 MB to 92.6 MB.
+Total: 3.349600 ms (FindLiveObjects: 0.360100 ms CreateObjectMapping: 0.149100 ms MarkObjects: 2.816300 ms  DeleteObjects: 0.023000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 9.09 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 0.08 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 5285.
+Memory consumption went from 92.6 MB to 92.6 MB.
+Total: 3.491300 ms (FindLiveObjects: 0.346300 ms CreateObjectMapping: 0.287500 ms MarkObjects: 2.837500 ms  DeleteObjects: 0.019200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  colorSpace: 1 -> 0
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:graphics/active-color-space: 03000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 8.31 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 0.07 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 5285.
+Memory consumption went from 92.0 MB to 92.0 MB.
+Total: 3.070400 ms (FindLiveObjects: 0.315200 ms CreateObjectMapping: 0.129200 ms MarkObjects: 2.605600 ms  DeleteObjects: 0.019900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 8.03 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 0.07 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 5285.
+Memory consumption went from 92.0 MB to 92.0 MB.
+Total: 3.585300 ms (FindLiveObjects: 0.386100 ms CreateObjectMapping: 0.170000 ms MarkObjects: 3.000700 ms  DeleteObjects: 0.027700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 8.50 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 0.07 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 5285.
+Memory consumption went from 92.0 MB to 92.0 MB.
+Total: 3.365600 ms (FindLiveObjects: 0.376800 ms CreateObjectMapping: 0.135000 ms MarkObjects: 2.822200 ms  DeleteObjects: 0.030900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 8.59 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 0.07 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1 unused Assets / (3.1 KB). Loaded Objects now: 5285.
+Memory consumption went from 92.0 MB to 92.0 MB.
+Total: 3.517500 ms (FindLiveObjects: 0.376000 ms CreateObjectMapping: 0.192700 ms MarkObjects: 2.919900 ms  DeleteObjects: 0.027800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.536 seconds
+Refreshing native plugins compatible for Editor in 8.69 ms, found 11 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in .\Library\PackageCache\com.unity.xr.oculus@4.1.2\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <834b2ded5dad441e8c7a4287897d63c7>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <7aeb7d7a52d04045b8a1c734633fa931>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.888 seconds
+Domain Reload Profiling: 1424ms
+	BeginReloadAssembly (149ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (288ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (125ms)
+			TypeCache.Refresh (92ms)
+				TypeCache.ScanAssembly (79ms)
+			ScanForSourceGeneratedMonoScriptInfo (23ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (889ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (73ms)
+			ProcessInitializeOnLoadAttributes (239ms)
 			ProcessInitializeOnLoadMethodAttributes (23ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (4ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Refreshing native plugins compatible for Editor in 8.04 ms, found 11 plugins.
-Preloading 3 native plugins for Editor in 1.68 ms.
-Unloading 4835 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 114 unused Assets / (2.6 MB). Loaded Objects now: 5240.
-Memory consumption went from 184.2 MB to 181.6 MB.
-Total: 4.668800 ms (FindLiveObjects: 0.353100 ms CreateObjectMapping: 0.314400 ms MarkObjects: 2.878900 ms  DeleteObjects: 1.121000 ms)
+Refreshing native plugins compatible for Editor in 8.16 ms, found 11 plugins.
+Preloading 3 native plugins for Editor in 0.07 ms.
+Unloading 4781 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (50.3 KB). Loaded Objects now: 5289.
+Memory consumption went from 168.2 MB to 168.1 MB.
+Total: 3.779400 ms (FindLiveObjects: 0.426500 ms CreateObjectMapping: 0.289400 ms MarkObjects: 2.942000 ms  DeleteObjects: 0.120500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -444,3 +485,179 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 849627.864278 seconds.
+  path: Packages/com.meta.xr.sdk.core/Prefabs/OVRCameraRig.prefab
+  artifactKey: Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Prefabs/OVRCameraRig.prefab using Guid(126d619cf4daa52469682f85c1378b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f342c0187fd76d2d08db1d61d8a70aa') in 0.037839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 80.327923 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Oculus.Interaction.OVR.asmdef
+  artifactKey: Guid(7040c93f6035f5749888e6fdf5ef28f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Oculus.Interaction.OVR.asmdef using Guid(7040c93f6035f5749888e6fdf5ef28f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7546f68fc571dd6fbd5c2c8de5bffe67') in 0.000499 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Editor/Oculus.Interaction.OVR.Editor.asmdef
+  artifactKey: Guid(ac6f6d26602ccd34383cd68b90e9941b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Editor/Oculus.Interaction.OVR.Editor.asmdef using Guid(ac6f6d26602ccd34383cd68b90e9941b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17af8fe7e29a85724f0333d2c8ed40a1') in 0.000347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.008776 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_bg_radius8.png
+  artifactKey: Guid(6ef65e04e617e104480532604302f86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_bg_radius8.png using Guid(6ef65e04e617e104480532604302f86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb68fc3ee81917c578e2c4752229298') in 0.041461 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_error_greybg.png
+  artifactKey: Guid(d0390c3a10ac76641b718f04d77f80ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_error_greybg.png using Guid(d0390c3a10ac76641b718f04d77f80ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eaea979efae0a707bd7a0016f117d93') in 0.018222 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/OVRProjectSetup/Icons/ovr_icon_category_error.png
+  artifactKey: Guid(23ed0d2bfc90b1d4f97cf416f2cd23a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/OVRProjectSetup/Icons/ovr_icon_category_error.png using Guid(23ed0d2bfc90b1d4f97cf416f2cd23a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bff42b68daf0b92b714cf44e8ea788c') in 0.015016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_icon_experimental.png
+  artifactKey: Guid(6dd511e1b7109d74cb260c2800c50f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_icon_experimental.png using Guid(6dd511e1b7109d74cb260c2800c50f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b362e738a877cab5f9c0c947b1be492') in 0.014279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/OVRProjectSetup/Icons/ovr_icon_category_neutral.png
+  artifactKey: Guid(a5c6b8a6ed5d33749ac1f5783e1675f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/OVRProjectSetup/Icons/ovr_icon_category_neutral.png using Guid(a5c6b8a6ed5d33749ac1f5783e1675f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8877bbdc6bb323e8103c9f323121faa1') in 0.014449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_icon_download.png
+  artifactKey: Guid(c586018950d40664784457f6025fac43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_icon_download.png using Guid(c586018950d40664784457f6025fac43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dd3986ab60df4f0c0b04ba5b48d11e0') in 0.013240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/Icons/ovr_icon_bug.png
+  artifactKey: Guid(66ebdb1a1469f66469249a72d7082b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/Icons/ovr_icon_bug.png using Guid(66ebdb1a1469f66469249a72d7082b35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e532b99d5141a2c9995196627d18670e') in 0.012803 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_bg_radius4.png
+  artifactKey: Guid(d30dd905e94d4ea47aa7c7103eea4af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/Icons/ovr_bg_radius4.png using Guid(d30dd905e94d4ea47aa7c7103eea4af9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e7e66e14d5e6421cf6cad54f6a68ba9') in 0.011735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.252033 seconds.
+  path: Packages/com.meta.xr.sdk.core/Prefabs/OVRControllerPrefab.prefab
+  artifactKey: Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Prefabs/OVRControllerPrefab.prefab using Guid(d9809c5e8418bb047bf2c8ba1d1a2cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef91525f0aed248f2bce7d416b91c8e0') in 0.871610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1008
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRControllers.prefab
+  artifactKey: Guid(fbfc588a949bb1a42b20e5bddc4cf8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRControllers.prefab using Guid(fbfc588a949bb1a42b20e5bddc4cf8cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34fa2cfbd53c1570de31c9ea761150e') in 0.445903 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1822
+========================================================================
+Received Import Request.
+  Time since last request: 8.415982 seconds.
+  path: Packages/com.meta.xr.sdk.core/Prefabs/OVRCustomHandPrefab_L.prefab
+  artifactKey: Guid(c6a74181d4000004887343fb87b3c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Prefabs/OVRCustomHandPrefab_L.prefab using Guid(c6a74181d4000004887343fb87b3c53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9b3f16b69d03c2d1e2e4355a2f4370b') in 0.020010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 334
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Packages/com.meta.xr.sdk.core/Prefabs/OVRRuntimeControllerPrefab.prefab
+  artifactKey: Guid(d0abdd77712724b409bdd185b622ac7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Prefabs/OVRRuntimeControllerPrefab.prefab using Guid(d0abdd77712724b409bdd185b622ac7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44f1dcbd19d5fab4c104a3bafa44bf2') in 0.006741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 1.384082 seconds.
+  path: Packages/com.unity.testtools.codecoverage/Editor/Icons/CodeCoverage@2x.png
+  artifactKey: Guid(37164f8d49df70f448b593fa86e488f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.testtools.codecoverage/Editor/Icons/CodeCoverage@2x.png using Guid(37164f8d49df70f448b593fa86e488f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32115e4a79895a3c3671d5541966ca5c') in 0.012630 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png
+  artifactKey: Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_icondeletedlocaloverlay.png using Guid(4da274d970a82a943ae3979e7833f3dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd1ea5de27a74fd7cf6a41f8b9202a4') in 0.013950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay@2x.png
+  artifactKey: Guid(4a231ba0e81e63849a8f985c228e8acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictresolvedoverlay@2x.png using Guid(4a231ba0e81e63849a8f985c228e8acd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4850fe92d320d3ecb81126ea8a3bc14') in 0.014249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay@2x.png
+  artifactKey: Guid(a3ced8f7044b9de4787602a9e9b20ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/d_iconconflictedoverlay@2x.png using Guid(a3ced8f7044b9de4787602a9e9b20ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc139b08bf40ce3b2730ffe1d16c973') in 0.011705 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 144.099925 seconds.
+  path: Packages/com.meta.xr.sdk.core/Prefabs/OVRTrackedKeyboard/OVRHandMask_R.prefab
+  artifactKey: Guid(f87c1bb867ed6194ea69c0d3a05a6209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Prefabs/OVRTrackedKeyboard/OVRHandMask_R.prefab using Guid(f87c1bb867ed6194ea69c0d3a05a6209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022fa6c6135f48764296b4910045bc3f') in 0.075629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 241
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/HandTracking/Prefabs/OVRHandPrefabBuildingBlock.prefab
+  artifactKey: Guid(929a4e1a0ccfe2048b9390905f78fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.core/Editor/BuildingBlocks/BlockData/HandTracking/Prefabs/OVRHandPrefabBuildingBlock.prefab using Guid(929a4e1a0ccfe2048b9390905f78fc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38311847d12aa0b829759d57d1aaa85d') in 0.003309 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRHands.prefab
+  artifactKey: Guid(ea16c3c8c1688234fa81a4f39339bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.meta.xr.sdk.interaction.ovr/Runtime/Prefabs/OVRHands.prefab using Guid(ea16c3c8c1688234fa81a4f39339bf1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad921c083eef22404d7a407b7ff6e341') in 0.210319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 754

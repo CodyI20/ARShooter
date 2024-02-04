@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1706.6667
     height: 869.3334
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 4}
-  m_MinSize: {x: 875, y: 371}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 1309
+  controlID: 54
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -97,7 +97,7 @@ MonoBehaviour:
     y: 0
     width: 1706.6666
     height: 869.3333
-  m_MinSize: {x: 875, y: 371}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -170,7 +170,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 98
+  controlID: 122
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -195,7 +195,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 1307
+  controlID: 52
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -220,7 +220,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 1308
+  controlID: 53
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -464,9 +464,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1068ffff
-      m_LastClickedID: -38896
-      m_ExpandedIDs: eebcfffff6bcffff12bdffff2afbffff
+      m_SelectedIDs: 38f7fffffef6ffff
+      m_LastClickedID: -2306
+      m_ExpandedIDs: 02f7ffff06f7ffff20f7ffff2afbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -788,7 +788,7 @@ MonoBehaviour:
       floating: 1
       collapsed: 0
       displayed: 1
-      snapOffset: {x: -192, y: -172.66666}
+      snapOffset: {x: -217.33331, y: -224}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: AINavigationOverlay
@@ -883,11 +883,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.073635526, y: 0.8211427, z: -0.108865455, w: -0.55540764}
     speed: 2
-    m_Value: {x: -0.073743366, y: 0.8205759, z: -0.108790316, w: -0.556221}
+    m_Value: {x: -0.07363454, y: 0.8211317, z: -0.108864, w: -0.55540025}
   m_Size:
     m_Target: 0.2842424
     speed: 2
-    m_Value: 0.28424296
+    m_Value: 0.2842424
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1025,9 +1025,9 @@ MonoBehaviour:
     m_SceneHandles: 
     m_ShowAllHits: 0
     m_SkipHidden: 0
-    m_SearchArea: 2
+    m_SearchArea: 0
     m_Folders:
-    - Assets/Oculus
+    - Assets/Materials
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1035,30 +1035,30 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Oculus
+  - Assets/Materials
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\1.UNIVERSITY\Year 2 Term 2\Personal Portfolio\Product\ARShooter\ARShooter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 4.333374}
-    m_SelectedIDs: 88690000
-    m_LastClickedID: 27016
-    m_ExpandedIDs: 00000000766900004877000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: ac750000
+    m_LastClickedID: 30124
+    m_ExpandedIDs: 0000000026710000227200002e72000070720000b8720000ba720000bc72000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: XR
+      m_OriginalName: XR
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 29030
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 12}
     m_SearchString: 
@@ -1072,7 +1072,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 42.333374}
     m_SelectedIDs: 9e590000
     m_LastClickedID: 22942
-    m_ExpandedIDs: 0000000076690000
+    m_ExpandedIDs: 0000000026710000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1150,7 +1150,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 659.3334
-    width: 1347.6666
+    width: 1305.6666
     height: 211.66663
   m_SerializedDataModeController:
     m_DataMode: 0
