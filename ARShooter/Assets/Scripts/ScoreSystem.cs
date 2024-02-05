@@ -17,11 +17,11 @@ public class ScoreSystem : MonoBehaviour
     }
     private void OnEnable()
     {
-        Enemy.OnEnemyDestroyed += HandleEnemyDestroyed;
+        Enemy.OnEnemyDeath += HandleEnemyDestroyed;
     }
     private void OnDisable()
     {
-        Enemy.OnEnemyDestroyed -= HandleEnemyDestroyed;
+        Enemy.OnEnemyDeath -= HandleEnemyDestroyed;
     }
 
     void HandleEnemyDestroyed(int score)
