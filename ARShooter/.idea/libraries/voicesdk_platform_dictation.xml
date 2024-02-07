@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="voicesdk_platform_dictation">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.voice.dictation@60.0.0/Plugins/voicesdk_platform_dictation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

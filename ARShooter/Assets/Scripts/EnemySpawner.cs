@@ -7,6 +7,8 @@ using UnityEngine;
 /// </summary>
 public class EnemySpawner : MonoBehaviour
 {
+    public static event System.Action OnEnemySpawn;
+
     [SerializeField, Tooltip("The enemy prefabs to spawn.")] private GameObject[] enemyPrefabs;
     [SerializeField, Tooltip("The spawn rate of the enemies.")] private float spawnRate = 1.0f;
     private float spawnTimer = 0.0f;
@@ -43,13 +45,15 @@ public class EnemySpawner : MonoBehaviour
     //Method that will spawn the enemies with the spawn rate
     private void SpawnEnemy()
     {
+        Debug.Log("SpawningEnemy");
         if (spawnTimer <= 0)
         {
-            Vector3 randomSpawnPosition = new Vector3(Random.Range(-10, 10), 0, Random.Range(-10, 10));
+            Vector3 randomSpawnPosition = new Vector3(Random.Range(-1, 1), Random.Range(1,2), Random.Range(-1, 1));
 
-            if (instantiatedPrefab == null && CanSpawnEnemyOnPosition(randomSpawnPosition))
+            if (instantiatedPrefab == null)
             {
                 instantiatedPrefab = Instantiate(enemyPrefabs[Random.Range(0, enemyPrefabs.Length)], randomSpawnPosition, Quaternion.identity);
+                OnEnemySpawn?.Invoke();
                 spawnTimer = spawnRate;
             }
         }

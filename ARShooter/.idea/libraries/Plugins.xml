@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Plugins">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.voice@60.0.0/Lib/PlatformCompatibility/Plugins/assistant_sdk_unity.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.voice@60.0.0/Lib/PlatformCompatibility/Plugins/voicesdk_core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.voice@60.0.0/Lib/PlatformCompatibility/Plugins/assistant_sdk_aidl.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.voice@60.0.0/Lib/PlatformCompatibility/Plugins/assistant_sdk_voicecommands.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.voice@60.0.0/Lib/PlatformCompatibility/Plugins/assistant_sdk_voicecommand_unity.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.voice@60.0.0/Lib/PlatformCompatibility/Plugins/assistant_sdk_core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Library/PackageCache/com.meta.xr.sdk.voice@60.0.0/Lib/PlatformCompatibility/Plugins/voicesdk_platform_logger.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
