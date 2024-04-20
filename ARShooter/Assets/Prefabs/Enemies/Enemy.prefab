@@ -123,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   score: 10
-  timeToLive: 1000
+  timeToLive: 15
 --- !u!114 &-8375487657762306697
 MonoBehaviour:
   m_ObjectHideFlags: 0

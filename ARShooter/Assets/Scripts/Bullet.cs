@@ -7,6 +7,8 @@ public class Bullet : MonoBehaviour
 {
     //Event for when the bullet hits something
     public static event Action<int, Enemy> OnBulletHit;
+    //Event for when the bullet is destroyed (used for visual effects)
+    public static event Action<Transform> OnBulletDestroyed;
 
     //Bullet Properties
     [SerializeField, Tooltip("The speed of the bullet.")] private float speed = 1.0f;
@@ -37,6 +39,7 @@ public class Bullet : MonoBehaviour
         {
             OnBulletHit?.Invoke(0, null);
         }
+        OnBulletDestroyed?.Invoke(transform);
         Destroy(gameObject);
     }
 }
