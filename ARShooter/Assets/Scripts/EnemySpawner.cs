@@ -12,7 +12,7 @@ public class EnemySpawner : MonoBehaviour
     [SerializeField, Tooltip("The spawn rate of the enemies.")] private float spawnRate = 1.0f;
     [SerializeField, Tooltip("The area in which the enemies can spawn.")] private float spawnArea = 1.0f;
     private float spawnTimer = 0.0f;
-    private bool searchingForSpawnPosition = false;
+    //private bool searchingForSpawnPosition = false;
 
     //Not mandatory, but it's a good practice to draw a gizmo to visualize the spawn area
     void OnDrawGizmosSelected()
@@ -22,23 +22,23 @@ public class EnemySpawner : MonoBehaviour
     }
 
     //Checks if the enemy can spawn on the position
-    bool CanSpawnEnemyOnPosition(Vector3 spawnPosition)
-    {
-        Collider[] colliders = Physics.OverlapSphere(spawnPosition, 1.0f);
+    //bool CanSpawnEnemyOnPosition(Vector3 spawnPosition)
+    //{
+    //    Collider[] colliders = Physics.OverlapSphere(spawnPosition, 1.0f);
 
-        if (colliders.Length > 0)
-        {
-            for(int i=colliders.Length-1; i>=0; i--)
-            {
-                if (i > colliders.Length - 1)
-                    continue;
-                else if (colliders[i].gameObject.CompareTag("Enemy"))
-                    return false;
-            }
-        }
+    //    if (colliders.Length > 0)
+    //    {
+    //        for(int i=colliders.Length-1; i>=0; i--)
+    //        {
+    //            if (i > colliders.Length - 1)
+    //                continue;
+    //            else if (colliders[i].gameObject.CompareTag("Enemy"))
+    //                return false;
+    //        }
+    //    }
 
-        return true;
-    }
+    //    return true;
+    //}
 
     //Method that will spawn the enemies with the spawn rate
     private void SpawnEnemy()
@@ -46,12 +46,12 @@ public class EnemySpawner : MonoBehaviour
         if (spawnTimer <= 0)
         {
             Vector3 randomSpawnPosition = new Vector3(Random.Range(-spawnArea, spawnArea), -1, Random.Range(-spawnArea, spawnArea));
-            while(!CanSpawnEnemyOnPosition(randomSpawnPosition))
-            {
-                searchingForSpawnPosition = true;
-                randomSpawnPosition = new Vector3(Random.Range(-spawnArea, spawnArea), -1, Random.Range(-spawnArea, spawnArea));
-            }
-            searchingForSpawnPosition = false;
+            //while(!CanSpawnEnemyOnPosition(randomSpawnPosition))
+            //{
+            //    searchingForSpawnPosition = true;
+            //    randomSpawnPosition = new Vector3(Random.Range(-spawnArea, spawnArea), -1, Random.Range(-spawnArea, spawnArea));
+            //}
+            //searchingForSpawnPosition = false;
             Instantiate(enemyPrefabs[Random.Range(0, enemyPrefabs.Length)], randomSpawnPosition, Quaternion.identity);
             OnEnemySpawn?.Invoke();
             spawnTimer = spawnRate;
@@ -62,7 +62,7 @@ public class EnemySpawner : MonoBehaviour
     void Update()
     {
         SpawnEnemy();
-        if (searchingForSpawnPosition == false && spawnTimer > 0)
+        if (spawnTimer > 0)
         {
             spawnTimer -= Time.deltaTime;
         }
