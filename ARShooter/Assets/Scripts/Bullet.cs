@@ -31,9 +31,10 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.GetComponent<Enemy>() != null)
+        Enemy enemyComponent = other.gameObject.GetComponent<Enemy>();
+        if (enemyComponent != null)
         {
-            OnBulletHit?.Invoke(damage, other.gameObject.GetComponent<Enemy>());
+            OnBulletHit?.Invoke(damage, enemyComponent);
         }
         else
         {
